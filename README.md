@@ -7,7 +7,7 @@ Systemjs used to load the es6 transpiled module to browser
 ## babel command to compile 
 babel src -d dest/
  
-##babel command to compile in watch mode
+## babel command to compile in watch mode
 babel -w src -d dest/
 
 ##  plugin used by babel transpiler inside .babelrc
