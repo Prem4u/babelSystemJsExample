@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
      "compile": "babel src -d dest/",
-     "compile-watch": "babel -w src -d dest/"
-   },
+     "compile-watch": "babel -w src -d dest/",
+     "start": "lite-server"
+    },
   "author": "Prem",
   "license": "ISC",
   "devDependencies": {
