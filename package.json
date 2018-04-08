@@ -1,0 +1,18 @@
+{
+  "name": "babelsystemjsexample",
+  "version": "1.0.0",
+  "description": "this is babel with systemjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "compile": "babel src -d dest/",
+     "compile-watch": "babel -w src -d dest/"
+   },
+  "author": "Prem",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-systemjs": "^6.24.1",
+    "systemjs": "^0.21.2"
+  }
+}
